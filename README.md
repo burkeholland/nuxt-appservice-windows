@@ -18,7 +18,7 @@ $ npm start
 
 ## Deploying To Azure AppService for Windows
 
-Windows leverages Kudu to do the build and IISNode to run the project. This means that some additional files/changes are required.
+Windows leverages Kudu to do the build and IISNode to run the project. This means that some additional files/changes are required. These changes have already been made to this project - for your deployment pleasure.
 
 1. A `.deployment` file must be present in the project to instruct Kudu to run `npm install`.
 
