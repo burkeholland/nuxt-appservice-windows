@@ -10,11 +10,7 @@
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
     "build": "nuxt build",
     "start": "node server/index.js",
-    "generate": "nuxt generate",
-    "postinstall": "nuxt build"
-  },
-  "engines": {
-    "node": "10.15.2"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
