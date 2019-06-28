@@ -1,6 +1,6 @@
 <template>
   <div class="section">
-    <h1 class="is-size-1">These Photos</h1>
+    <h1 class="is-size-1">These Photos On Windows</h1>
     <div class="columns is-multiline">
       <div
         v-for="photo in photos"
