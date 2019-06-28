@@ -1,2 +1,2 @@
 [config]
-command = npm install && npm run build
+command = bash deploy.sh
