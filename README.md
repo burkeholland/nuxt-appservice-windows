@@ -18,6 +18,8 @@ $ npm start
 
 ## Deploying To Azure AppService for Windows
 
+[![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
+
 Windows leverages Kudu to do the build and IISNode to run the project. This means that some additional files/changes are required.
 
 1. A `.deployment` file must be present in the project to instruct Kudu to run `npm install`.
