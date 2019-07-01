@@ -18,6 +18,10 @@ $ npm start
 
 ## Deploying To Azure AppService for Windows
 
+[Get an Azure Account](https://azure.microsoft.com/free/?WT.mc_id=personal-github-buhollan)
+
+> Note that this Nuxt project uses Express. If you picked a different server, you may have a slightly different configuration.
+
 Windows leverages Kudu to do the build and IISNode to run the project. This means that some additional files/changes are required. These changes have already been made to this project (except for number 1) - for your deployment pleasure. 
 
 1. **CHANGE YOU NEED TO MAKE:** You need to set the `WEBSITE_NODE_DEFAULT_VERSION` Application Setting to one that is greater than or equal to 6.11. Nuxt requires this. Otherwise you will see an error that the keyword `function` is unexpected. I use version  10.15.2. 
