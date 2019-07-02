@@ -24,7 +24,7 @@ $ npm start
 
 Windows leverages Kudu to do the build and IISNode to run the project. This means that some additional files/changes are required. These changes have already been made to this project (except for number 1) - for your deployment pleasure. 
 
-1. **CHANGE YOU NEED TO MAKE:** You need to set the `WEBSITE_NODE_DEFAULT_VERSION` Application Setting to one that is greater than or equal to 6.11. Nuxt requires this. Otherwise you will see an error that the keyword `function` is unexpected. I use version  10.15.2. 
+1. **CHANGE YOU NEED TO MAKE:** You need to set the `WEBSITE_NODE_DEFAULT_VERSION` Application Setting to one that is greater than or equal to 8. Nuxt requires this. Otherwise you will see an error that the keyword `function` is unexpected. I use version  10.15.2. 
 
 2. A `.deployment` file must be present in the project to instruct Kudu to run `npm install`.
 
