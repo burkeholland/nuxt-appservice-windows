@@ -18,7 +18,7 @@ $ npm start
 
 ## Deploying To Azure AppService for Windows
 
-[Get an Azure Account](https://azure.microsoft.com/free/?WT.mc_id=personal-github-buhollan)
+[Get an Azure Account](https://azure.microsoft.com/free/?WT.mc_id=m365-0000-buhollan)
 
 > Note that this Nuxt project uses Express. If you picked a different server, you may have a slightly different configuration.
 
