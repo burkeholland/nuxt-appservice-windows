@@ -18,7 +18,7 @@
     "@nuxtjs/bulma": "^1.2.1",
     "cross-env": "^5.2.0",
     "cuid": "^2.1.6",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "nuxt": "^2.8.1"
   },
   "devDependencies": {
