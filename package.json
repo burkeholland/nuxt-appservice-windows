@@ -19,7 +19,7 @@
     "cross-env": "^5.2.0",
     "cuid": "^2.1.6",
     "express": "^4.16.4",
-    "nuxt": "^2.8.1"
+    "nuxt": "^2.15.8"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",
